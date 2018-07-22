@@ -6,6 +6,7 @@ import HelloWorld1 from '../components/HelloWorld1.vue'
 import HelloWorld2 from '../components/HelloWorld2.vue'
 import HelloWorld3 from '../components/HelloWorld3.vue'
 import HelloWorld4 from '../components/HelloWorld4.vue'
+import HelloWorld5 from '../components/HelloWorld5.vue'
 Vue.use(Router)
 
 
@@ -15,6 +16,11 @@ export default new Router({
       path: '/',
       name: 'hello',
       component: HelloWorld,
+    },
+    {
+      path: '/join',
+      name: 'join',
+      component: HelloWorld5,
     },
     {
       path: '/2',
